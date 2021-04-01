@@ -3,19 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package vehiculo;
+package OOP;
 
 /**
  *
  * @author Yurguen Pinedo
  */
-public class Vehiculo {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+interface Transporte {
+    // todos son métodos abstractos.
+    void acelerar(int a);
+    void aplicarFrenos();
 }
